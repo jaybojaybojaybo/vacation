@@ -9,8 +9,60 @@
   </head>
   <body>
     <div class="container">
-      <h1>Vacation Maker!</h1>
-      <h3>Please fill out this survey to find your optimal destination!</h3>
+      <h1 class="jumbotron">Vacation Maker!</h1>
+      <p>Please fill out this survey to find your optimal destination!</p>
+      <p>Select the answers that most correspond to your true feelings:</p>
+
+      <form id="survey">
+        <h3>Please select your favorite <a href="http://saltandstraw.com/flavors/#portland">ice cream</a> flavor:</h3>
+        <select class="form-control" id="iceCream">
+          <option>Nothing Selected</option>
+          <option value="10">Xocolatl de David's Granola & Yogurt</option>
+          <option value="20">Alma's Toasted Milk with Assam Tea Caramel</option>
+          <option value="30">Woodblock's Spiced Haitian Rum Raisin</option>
+          <option value="40">Cocanu's Cloudforest Vanilla w/ Passionfruit & Dark Chocolate</option>
+          <option value="50">Missionary's Chocolate & Lemograss Curry Sorbet</option>
+        </select>
+        <h3>Please select your favorite season:</h3>
+        <select class="form-control" id="season">
+          <option>Nothing Selected</option>
+          <option value="10">Summer</option>
+          <option value="20">Late-Summer</option>
+          <option value="30">Autumn</option>
+          <option value="40">Winter</option>
+          <option value="50">Spring</option>
+        </select>
+        <h3>Please select your favorite emotion:</h3>
+        <select class="form-control" id="emotion">
+          <option>Nothing Selected</option>
+          <option value="10">Boredom</option>
+          <option value="20">Anguish</option>
+          <option value="30">Disgust</option>
+          <option value="40">Fear</option>
+          <option value="50">Anger</option>
+        </select>
+        <h3>Please select your favorite contraption:</h3>
+        <select class="form-control" id="gizmo">
+          <option>Nothing Selected</option>
+          <option value="10">Security Cameras</option>
+          <option value="20">The Clapper</option>
+          <option value="30">ShamWow!</option>
+          <option value="40">Can Opener</option>
+          <option value="50">The Amazon Kindle</option>
+        </select>
+        <h3>Please select your favorite family relationship to have:</h3>
+        <select class="form-control" id="relation">
+          <option>Nothing Selected</option>
+          <option value="10">First Cousin</option>
+          <option value="20">Second Cousin</option>
+          <option value="30">Second Cousin, Once Removed</option>
+          <option value="40">Great-Grandmother</option>
+          <option value="50">Great-Uncle</option>
+        </select>
+        <br>
+        <button type="submit" class="btn">Where to?</button>
+      </form>
+
     </div>
   </body>
 </html>
