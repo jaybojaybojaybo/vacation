@@ -10,3 +10,7 @@ img {
   width: 100%;
   height: auto;
 }
+
+#NJ , #singapore , #bahia {
+  display: none;
+}
