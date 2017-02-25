@@ -29,6 +29,10 @@ _Jasun Feddema - jasun.feddema@gmail.com_
 * _GitBash_
 * _Atom Editor_
 * _Google Chrome_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 
 ### License
